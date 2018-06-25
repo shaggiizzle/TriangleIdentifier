@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="112" visitedSequencePoints="35" numBranchPoints="28" visitedBranchPoints="9" sequenceCoverage="31.25" branchCoverage="32.14" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="1" visitedClasses="2" numClasses="5" visitedMethods="5" numMethods="16" />
+  <Modules>
+    <Module hash="F8-76-94-67-3D-18-A7-31-8B-CD-C4-CA-D3-58-1D-3C-21-7B-CC-2C">
+      <Summary numSequencePoints="60" visitedSequencePoints="16" numBranchPoints="9" visitedBranchPoints="3" sequenceCoverage="26.67" branchCoverage="33.33" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="2" visitedMethods="3" numMethods="9" />
+      <ModulePath>C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifierTest\bin\Debug\TriangleIdentifierTest.dll</ModulePath>
+      <ModuleTime>2018-06-23T18:41:01.4073828Z</ModuleTime>
+      <ModuleName>TriangleIdentifierTest</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifierTest\UnitTest2.cs" />
+        <File uid="2" fullPath="C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifierTest\UnitTest1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>TriangleIdentifierTest.UnitTest2</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void TriangleIdentifierTest.UnitTest2::Setup()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="17" sc="5" el="17" ec="6" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="18" sc="7" el="18" ec="81" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="115" sl="19" sc="7" el="19" ec="65" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="190" sl="20" sc="7" el="20" ec="82" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="212" sl="22" sc="7" el="23" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="6" ordinal="5" offset="223" sl="24" sc="7" el="24" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="6" offset="231" sl="25" sc="7" el="25" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="8" ordinal="7" offset="238" sl="26" sc="5" el="26" ec="6" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="17" sc="5" el="17" ec="6" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void TriangleIdentifierTest.UnitTest2::TestMethod1()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="9" ordinal="0" offset="0" sl="30" sc="5" el="30" ec="6" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="10" ordinal="1" offset="1" sl="33" sc="14" el="33" ec="111" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="11" ordinal="2" offset="22" sl="34" sc="7" el="34" ec="8" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="12" ordinal="3" offset="23" sl="35" sc="9" el="35" ec="31" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="13" ordinal="4" offset="30" sl="36" sc="9" el="36" ec="33" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="14" ordinal="5" offset="42" sl="37" sc="7" el="37" ec="8" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="15" ordinal="6" offset="56" sl="39" sc="5" el="39" ec="6" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="9" ordinal="0" offset="0" sl="30" sc="5" el="30" ec="6" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void TriangleIdentifierTest.UnitTest2::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="16" ordinal="0" offset="0" sl="12" sc="5" el="12" ec="90" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="16" ordinal="0" offset="0" sl="12" sc="5" el="12" ec="90" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>TriangleIdentifierTest.UnitTest2/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void TriangleIdentifierTest.UnitTest2/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="17" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void TriangleIdentifierTest.UnitTest2/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="18" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="44" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>TriangleClassifierTest.UnitTest1</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::InitialStateTest()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="19" ordinal="0" offset="0" sl="11" sc="5" el="11" ec="6" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="20" ordinal="1" offset="1" sl="13" sc="7" el="13" ec="84" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" offset="7" sl="19" sc="7" el="19" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="22" ordinal="3" offset="20" sl="20" sc="5" el="20" ec="6" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="19" ordinal="0" offset="0" sl="11" sc="5" el="11" ec="6" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::AddSingleSideTest()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="23" ordinal="0" offset="0" sl="24" sc="5" el="24" ec="6" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="24" ordinal="1" offset="1" sl="26" sc="7" el="26" ec="84" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="25" ordinal="2" offset="7" sl="29" sc="7" el="29" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="26" ordinal="3" offset="15" sl="32" sc="7" el="32" ec="35" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="27" ordinal="4" offset="27" sl="33" sc="7" el="33" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="28" ordinal="5" offset="40" sl="34" sc="5" el="34" ec="6" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="23" ordinal="0" offset="0" sl="24" sc="5" el="24" ec="6" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::AddTwoSidesTest()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="29" ordinal="0" offset="0" sl="38" sc="5" el="38" ec="6" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="30" ordinal="1" offset="1" sl="40" sc="7" el="40" ec="84" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="31" ordinal="2" offset="7" sl="43" sc="7" el="43" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="32" ordinal="3" offset="15" sl="44" sc="7" el="44" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="33" ordinal="4" offset="23" sl="47" sc="7" el="47" ec="35" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="34" ordinal="5" offset="35" sl="48" sc="7" el="48" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="35" ordinal="6" offset="48" sl="49" sc="5" el="49" ec="6" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="29" ordinal="0" offset="0" sl="38" sc="5" el="38" ec="6" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::EquilateralTest()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="36" ordinal="0" offset="0" sl="53" sc="5" el="53" ec="6" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="37" ordinal="1" offset="1" sl="55" sc="7" el="55" ec="84" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="38" ordinal="2" offset="7" sl="58" sc="7" el="58" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="39" ordinal="3" offset="15" sl="59" sc="7" el="59" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="40" ordinal="4" offset="23" sl="60" sc="7" el="60" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="41" ordinal="5" offset="31" sl="63" sc="7" el="63" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="42" ordinal="6" offset="43" sl="64" sc="7" el="64" ec="46" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="43" ordinal="7" offset="55" sl="65" sc="7" el="65" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="44" ordinal="8" offset="68" sl="66" sc="5" el="66" ec="6" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="36" ordinal="0" offset="0" sl="53" sc="5" el="53" ec="6" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::IsolecesTest()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="45" ordinal="0" offset="0" sl="70" sc="5" el="70" ec="6" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="46" ordinal="1" offset="1" sl="72" sc="7" el="72" ec="84" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="47" ordinal="2" offset="7" sl="75" sc="7" el="75" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="48" ordinal="3" offset="15" sl="76" sc="7" el="76" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="49" ordinal="4" offset="23" sl="77" sc="7" el="77" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="50" ordinal="5" offset="31" sl="80" sc="7" el="80" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="51" ordinal="6" offset="43" sl="81" sc="7" el="81" ec="44" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="52" ordinal="7" offset="55" sl="82" sc="7" el="82" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="53" ordinal="8" offset="68" sl="83" sc="5" el="83" ec="6" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="45" ordinal="0" offset="0" sl="70" sc="5" el="70" ec="6" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::ScaleneTest()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="54" ordinal="0" offset="0" sl="87" sc="5" el="87" ec="6" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="55" ordinal="1" offset="1" sl="89" sc="7" el="89" ec="84" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="56" ordinal="2" offset="7" sl="92" sc="7" el="92" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="57" ordinal="3" offset="15" sl="93" sc="7" el="93" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="58" ordinal="4" offset="23" sl="94" sc="7" el="94" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="59" ordinal="5" offset="31" sl="97" sc="7" el="97" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="60" ordinal="6" offset="43" sl="98" sc="7" el="98" ec="42" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="61" ordinal="7" offset="55" sl="99" sc="7" el="99" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="62" ordinal="8" offset="68" sl="100" sc="5" el="100" ec="6" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="54" ordinal="0" offset="0" sl="87" sc="5" el="87" ec="6" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void TriangleClassifierTest.UnitTest1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="63" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods>
+        <TrackedMethod uid="1" token="100663298" name="System.Void TriangleIdentifierTest.UnitTest2::TestMethod1()" strategy="MSTestTest" />
+        <TrackedMethod uid="2" token="100663300" name="System.Void TriangleClassifierTest.UnitTest1::InitialStateTest()" strategy="MSTestTest" />
+        <TrackedMethod uid="3" token="100663301" name="System.Void TriangleClassifierTest.UnitTest1::AddSingleSideTest()" strategy="MSTestTest" />
+        <TrackedMethod uid="4" token="100663302" name="System.Void TriangleClassifierTest.UnitTest1::AddTwoSidesTest()" strategy="MSTestTest" />
+        <TrackedMethod uid="5" token="100663303" name="System.Void TriangleClassifierTest.UnitTest1::EquilateralTest()" strategy="MSTestTest" />
+        <TrackedMethod uid="6" token="100663304" name="System.Void TriangleClassifierTest.UnitTest1::IsolecesTest()" strategy="MSTestTest" />
+        <TrackedMethod uid="7" token="100663305" name="System.Void TriangleClassifierTest.UnitTest1::ScaleneTest()" strategy="MSTestTest" />
+      </TrackedMethods>
+    </Module>
+    <Module hash="86-EF-A1-05-26-15-5A-9B-91-93-A6-90-50-DA-A4-65-31-9D-C5-1E">
+      <Summary numSequencePoints="52" visitedSequencePoints="19" numBranchPoints="19" visitedBranchPoints="6" sequenceCoverage="36.54" branchCoverage="31.58" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="1" visitedClasses="1" numClasses="3" visitedMethods="2" numMethods="7" />
+      <ModulePath>C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifierTest\bin\Debug\TriangleIdentifier.exe</ModulePath>
+      <ModuleTime>2018-06-23T18:16:53.2646613Z</ModuleTime>
+      <ModuleName>TriangleIdentifier</ModuleName>
+      <Files>
+        <File uid="5" fullPath="C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifier\ConsoleTriangleIdentifier.cs" />
+        <File uid="6" fullPath="C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifier\Program.cs" />
+        <File uid="7" fullPath="C:\Users\peter\documents\visual studio 2017\Projects\TriangleIdentifier\TriangleIdentifier\TriangleIdentifier.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="23" visitedSequencePoints="19" numBranchPoints="8" visitedBranchPoints="6" sequenceCoverage="82.61" branchCoverage="75" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="5.23" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>TriangleIdentifier.ConsoleTriangleIdentifier</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void TriangleIdentifier.ConsoleTriangleIdentifier::.ctor(TriangleIdentifier.ITriangleIdentifier)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="64" ordinal="0" offset="0" sl="13" sc="5" el="13" ec="69" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="65" ordinal="1" offset="7" sl="14" sc="5" el="14" ec="6" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="66" ordinal="2" offset="8" sl="15" sc="7" el="15" ec="36" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="67" ordinal="3" offset="15" sl="16" sc="5" el="16" ec="6" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="64" ordinal="0" offset="0" sl="13" sc="5" el="13" ec="69" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="8" sequenceCoverage="78.95" branchCoverage="71.43" crapScore="5.23" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="19" visitedSequencePoints="15" numBranchPoints="7" visitedBranchPoints="5" sequenceCoverage="78.95" branchCoverage="71.43" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5.23" minCrapScore="5.23" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void TriangleIdentifier.ConsoleTriangleIdentifier::Run()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="68" ordinal="0" offset="0" sl="19" sc="5" el="19" ec="6" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="69" ordinal="1" offset="6" sl="21" sc="7" el="21" ec="8" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="70" ordinal="2" offset="7" sl="22" sc="9" el="22" ec="72" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="71" ordinal="3" offset="36" sl="23" sc="9" el="23" ec="43" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="72" ordinal="4" offset="42" sl="25" sc="9" el="25" ec="49" bec="2" bev="2" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="73" ordinal="5" offset="73" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="74" ordinal="6" offset="74" sl="27" sc="11" el="27" ec="17" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="3" uspid="75" ordinal="7" offset="76" sl="30" sc="9" el="30" ec="47" bec="2" bev="1" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="3" uspid="76" ordinal="8" offset="88" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="3" uspid="77" ordinal="9" offset="89" sl="32" sc="11" el="32" ec="52" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="3" uspid="78" ordinal="10" offset="103" sl="33" sc="11" el="33" ec="28" bec="2" bev="1" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="79" ordinal="11" offset="121" sl="33" sc="29" el="33" ec="55" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="80" ordinal="12" offset="129" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="81" ordinal="13" offset="132" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="82" ordinal="14" offset="133" sl="37" sc="11" el="37" ec="64" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="83" ordinal="15" offset="144" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="84" ordinal="16" offset="145" sl="39" sc="7" el="39" ec="8" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="85" ordinal="17" offset="146" sl="20" sc="7" el="20" ec="19" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="4" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="86" ordinal="18" offset="154" sl="40" sc="5" el="40" ec="6" bec="0" bev="0" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="89" ordinal="2" offset="71" sl="25" path="0" offsetend="73" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="3" uspid="90" ordinal="3" offset="71" sl="25" path="1" offsetend="76" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="3" uspid="91" ordinal="4" offset="86" sl="30" path="0" offsetend="88" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="92" ordinal="5" offset="86" sl="30" path="1" offsetend="132" fileid="5" />
+                <BranchPoint vc="0" uspid="93" ordinal="6" offset="119" sl="33" path="0" offsetend="121" fileid="5" />
+                <BranchPoint vc="3" uspid="94" ordinal="7" offset="119" sl="33" path="1" offsetend="129" fileid="5">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="3" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="68" ordinal="0" offset="0" sl="19" sc="5" el="19" ec="6" bec="0" bev="0" fileid="5">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>TriangleIdentifier.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void TriangleIdentifier.Program::Main(System.String[])</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="95" ordinal="0" offset="0" sl="12" sc="5" el="12" ec="6" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="96" ordinal="1" offset="1" sl="13" sc="7" el="13" ec="72" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="97" ordinal="2" offset="7" sl="14" sc="7" el="14" ec="103" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="98" ordinal="3" offset="14" sl="15" sc="7" el="15" ec="31" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="99" ordinal="4" offset="21" sl="16" sc="5" el="16" ec="6" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="95" ordinal="0" offset="0" sl="12" sc="5" el="12" ec="6" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void TriangleIdentifier.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="100" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="24" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>TriangleIdentifier.TriangleIdentifier</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Int32 TriangleIdentifier.TriangleIdentifier::get_SideCount()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="101" ordinal="0" offset="0" sl="18" sc="29" el="18" ec="40" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="101" ordinal="0" offset="0" sl="18" sc="29" el="18" ec="40" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void TriangleIdentifier.TriangleIdentifier::.ctor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="102" ordinal="0" offset="0" sl="13" sc="5" el="13" ec="32" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="103" ordinal="1" offset="7" sl="14" sc="5" el="14" ec="6" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="104" ordinal="2" offset="8" sl="15" sc="7" el="15" ec="31" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="105" ordinal="3" offset="19" sl="16" sc="5" el="16" ec="6" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="102" ordinal="0" offset="0" sl="13" sc="5" el="13" ec="32" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.String TriangleIdentifier.TriangleIdentifier::AddSide(System.Int32)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="106" ordinal="0" offset="0" sl="21" sc="5" el="21" ec="6" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="107" ordinal="1" offset="1" sl="22" sc="7" el="22" ec="26" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="108" ordinal="2" offset="7" sl="23" sc="7" el="23" ec="23" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="109" ordinal="3" offset="20" sl="24" sc="7" el="24" ec="28" bec="2" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="110" ordinal="4" offset="38" sl="25" sc="7" el="25" ec="8" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="111" ordinal="5" offset="39" sl="27" sc="9" el="27" ec="59" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="112" ordinal="6" offset="82" sl="28" sc="9" el="28" ec="23" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="113" ordinal="7" offset="94" sl="29" sc="7" el="29" ec="8" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="114" ordinal="8" offset="95" sl="30" sc="7" el="30" ec="21" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="115" ordinal="9" offset="99" sl="31" sc="5" el="31" ec="6" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="116" ordinal="0" offset="36" sl="24" path="0" offsetend="38" fileid="7" />
+                <BranchPoint vc="0" uspid="117" ordinal="1" offset="36" sl="24" path="1" offsetend="95" fileid="7" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="106" ordinal="0" offset="0" sl="21" sc="5" el="21" ec="6" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.String TriangleIdentifier.TriangleIdentifier::Classify(System.Int32,System.Int32,System.Int32)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="118" ordinal="0" offset="0" sl="34" sc="5" el="34" ec="6" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="119" ordinal="1" offset="1" sl="35" sc="7" el="35" ec="44" bec="2" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="120" ordinal="2" offset="16" sl="36" sc="7" el="36" ec="8" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="121" ordinal="3" offset="17" sl="37" sc="9" el="37" ec="30" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="122" ordinal="4" offset="25" sl="39" sc="7" el="39" ec="44" bec="2" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="123" ordinal="5" offset="40" sl="40" sc="7" el="40" ec="8" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="124" ordinal="6" offset="41" sl="41" sc="9" el="41" ec="28" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="125" ordinal="7" offset="49" sl="43" sc="7" el="43" ec="24" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="126" ordinal="8" offset="57" sl="44" sc="5" el="44" ec="6" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="129" ordinal="2" offset="14" sl="35" path="0" offsetend="16" fileid="7" />
+                <BranchPoint vc="0" uspid="130" ordinal="3" offset="14" sl="35" path="1" offsetend="25" fileid="7" />
+                <BranchPoint vc="0" uspid="133" ordinal="6" offset="38" sl="39" path="0" offsetend="40" fileid="7" />
+                <BranchPoint vc="0" uspid="134" ordinal="7" offset="38" sl="39" path="1" offsetend="49" fileid="7" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="118" ordinal="0" offset="0" sl="34" sc="5" el="34" ec="6" bec="0" bev="0" fileid="7" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods />
+    </Module>
+  </Modules>
+</CoverageSession>
